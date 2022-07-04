@@ -1,5 +1,58 @@
-svg {
-    width: 100px;
-    height: 100px:
-    color: white;
+@media (min-width: 450px) {
+    .col {width: 450px;}
+}
+@media (min-width: 768px) {
+    .col {width: 100%;}
+}
+@media (min-width: 992px) {
+    .col {width: 50%;}
+}
+@media (min-width: 1200px) {
+    .col {width: 33.33333333%;}
+}
+.col {
+    float: left;
+    padding: 15px;
+}
+.col:first-child {
+    padding-left: 0;
+}
+.col:last-child {
+    padding-right: 0;
+}
+.col.col-12 {
+    width: 100%;
+}
+.col.col-9 {
+    width: 75%;
+}
+.col.col-8 {
+    width: 66.66666667%;
+}
+.col.col-7 {
+    width: 58.33333333%;
+}
+.col.col-6 {
+    width: 50%;
+}
+.col.col-5 {
+    width: 41.66666667%;
+}
+.col.col-4 {
+    width: 33.33333333%;
+}
+.col.col-3 {
+    width: 25%;
+}
+.col.col-2 {
+    width: 16.66666667%;
+}
+.col.col-1 {
+    width: 8.33333333%;
+}
+.col.col-0 {
+    width: 0;
+}
+.col.col-auto {
+    width: auto;
 }
