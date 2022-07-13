@@ -1,0 +1,28 @@
+
+(myvenv) C:\Users\YOUR\djangogirls>pip install django~=2.0.0
+Collecting django~=2.0.0
+  Using cached Django-2.0.13-py3-none-any.whl (7.1 MB)
+Collecting pytz
+  Using cached pytz-2022.1-py2.py3-none-any.whl (503 kB)
+Installing collected packages: pytz, django
+Successfully installed django-2.0.13 pytz-2022.1
+WARNING: You are using pip version 22.0.4; however, version 22.1.2 is available.
+You should consider upgrading via the 'C:\Users\YOUR\djangogirls\myvenv\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(myvenv) C:\Users\YOUR\djangogirls>\myvenv\Scripts\python.exe -m pip install --upgrade pip
+지정된 경로를 찾을 수 없습니다.
+
+(myvenv) C:\Users\YOUR\djangogirls>-m pip install --upgrade pip
+'-m'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+(myvenv) C:\Users\YOUR\djangogirls>C:\Users\YOUR\djangogirls\myvenv\Scripts\python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\your\djangogirls\myvenv\lib\site-packages (22.0.4)
+Collecting pip
+  Using cached pip-22.1.2-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 22.0.4
+    Uninstalling pip-22.0.4:
+      Successfully uninstalled pip-22.0.4
+Successfully installed pip-22.1.2
