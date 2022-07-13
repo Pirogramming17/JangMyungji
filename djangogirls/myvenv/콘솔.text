@@ -1,0 +1,88 @@
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv (main)
+$ mkdir djangogirls
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv (main)
+$ cd djangogirls
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ python3 -m venv myvenv
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ C:\Python35\python -m venv myvenv
+bash: C:Python35python: command not found
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ /c/Users/YOUR/Desktop/piro_work/JangMyungji/djangogirls/myvenv -m venv myvenv
+bash: /c/Users/YOUR/Desktop/piro_work/JangMyungji/djangogirls/myvenv: Is a directory
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ myvenv\Scripts\activate
+bash: myvenvScriptsactivate: command not found
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+bash: Set-ExecutionPolicy: command not found
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$      Execution Policy Change
+bash: Execution: command not found
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ Set
+bash: Set: command not found
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+bash: Set-ExecutionPolicy: command not found
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ cd WINDOWS
+bash: cd: WINDOWS: No such file or directory
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ ls
+myvenv/
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/Desktop/piro_work/JangMyungji/djangogirls/myvenv/djangogirls (main)
+$ cd
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~ (master)
+$ cd windows
+bash: cd: windows: No such file or directory
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~ (master)
+$ cd system32
+bash: cd: system32: No such file or directory
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~ (master)
+$ mkdir djangogirls4
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~ (master)
+$ cd djangogirls
+bash: cd: djangogirls: No such file or directory
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~ (master)
+$ mkdir djangogirls
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~ (master)
+$ cd djangogirls
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/djangogirls (master)
+$ python3 -m venv myvenv
+
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/djangogirls (master)
+$ source myvenv/Scripts/activate
+(myvenv)
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/djangogirls (master)
+$ pip install django~=2.0.0
+Collecting django~=2.0.0
+  Using cached Django-2.0.13-py3-none-any.whl (7.1 MB)
+Collecting pytz
+  Using cached pytz-2022.1-py2.py3-none-any.whl (503 kB)
+Installing collected packages: pytz, django
+Successfully installed django-2.0.13 pytz-2022.1
+WARNING: You are using pip version 22.0.4; however, version 22.1.2 is available.
+You should consider upgrading via the 'C:\Users\YOUR\djangogirls\myvenv\Scripts\python.exe -m pip install --upgrade pip' command.
+(myvenv)
+YOUR@DESKTOP-2TNEBBR MINGW64 ~/djangogirls (master)
+$
