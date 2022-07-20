@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idia_list</title>
+</head>
+<body>
+    <nav>
+        <a href="/idea_list/create.html/">아이디어 등록</a> 
+        <a href="/idea_list/">아이디어 관리</a>
+        <a href="/dev_list/">개발툴 등록</a>
+        <a href="/dev_manage/">개발툴 관리</a>
+    </nav>
+
+    
+    <h1>IDEA LIST</h1>
+
+    {% for p in post_list %}
+    <!--idea post-->
+        <hr/>
+        <img src="{{ p.head_image.url }}" border="0" width="200" height="200"  alt="{{ p.title }}">
+        <h3><a href="{{ p.get_absolute_url }} ">{{ p.title }}</a></h3> <!--앱솔루트 유알엘 하면 클릭해서 페이지 이동 가능(나는 사진에다 해야함)-->
+        <h4>{{ p.created_at }}</h4>
+        <p>{{ p.content }}</p>
+        <p>{{ p.interest }}</p>
+        <p>{{ p.devtool }}</p>
+    {% endfor %}
+</body>
+</html>
